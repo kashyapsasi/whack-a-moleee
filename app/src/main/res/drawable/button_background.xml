@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid background color -->
+    <item android:drawable="@color/white" />
+
+    <!-- Image overlay (Mole) -->
+    <item>
+        <bitmap
+            android:src="@drawable/mole"
+            android:gravity="center" />
+    </item>
+
+    <!-- Border -->
+    <item>
+        <shape>
+            <stroke
+                android:width="4dp"
+                android:color="#000000" /> <!-- Black border -->
+        </shape>
+    </item>
+</layer-list>
